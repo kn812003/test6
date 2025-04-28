@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff;
+}
+
+.main{
+    width: 1536px;
+    height: 700px;
+    overflow: hidden;
+    background: #ffffff ;
+}
+
+#chktoggle{
+    display: none;
+
+}
+.information{
+    width: 100%;
+    height: 100%;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    color: #021532;
+    font-size: 2.3em;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 40px auto;
+    transition: 0.5s ease-in-out;
+}
+.fixx{
+    background-color: #021532;
+    width: 100%;
+    height: 703px;
+    padding:0px;
+}
+.enter{
+    background-color: #e9edff;
+    border: none;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    float: right;
+    margin-right: 10px;
+    text-align: right;
+    font-size: medium;
+}
+.save_information{
+    float: right;
+    margin-top: 15px;
+    margin-right: 700px;
+    background-color: #418bfa;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 33px;
+    border-radius: 8px;
+    font-size: medium;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-top: 17px;
+}
+.save_information:hover{
+    background-color: #6ca7ff;
+}
+.login{
+    width: 100%;
+    height: 750px;
+    background: #021532;
+    transform: translateY(-100px);
+    transition: 0.8s ease-in-out;
+    border-radius: 60% / 10%;
+}
+.enter2{
+    width: 200px;
+    height: 20px;
+    background-color: #e9edff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.loginpage{
+    background-color: #418bfa;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+    font-size: medium;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.loginpage:hover{
+    background-color: #6ca7ff;
+}
+.login label{
+    color: #e76f51;
+    transform: scale(0.6);
+}
+
+#chktoggle:checked ~ .login{
+    transform: translateY(-610px);
+}
+
+#chktoggle:checked ~ .login label{
+    transform: scale(1);
+
+}
+#chktoggle:checked ~ .information label{
+    transform: scale(0.6);
+}
