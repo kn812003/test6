@@ -1,0 +1,130 @@
+body,div,h2{
+    padding:0;
+    margin:0;
+}
+.fixx{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 797px;
+    padding: 0px;
+    direction: ltr;
+}
+.div1{
+    width: 100%;
+    height: 50px;
+    background-color: #021532;
+    color: white;
+    text-align: center;
+}
+.div2{
+    width: 100%;
+    height: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 6px #000;
+    text-align: right;
+    font-size:medium;
+}
+.h{
+    color: #000;
+    float: right;
+    margin-right: 35px;
+    transition: all 0.3s ease;
+}
+.h:hover{
+    color: #e76f51;
+}
+#linka{
+    color: white;
+}
+.div3{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px rgb(2, 0, 110);
+    width:1090px;
+    height: 570px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 200px;
+    border-radius: 20px;
+
+}
+
+.pictur{
+    width: 500px;
+    height: 530px;
+    float: left;
+    margin-top: 30px;
+}
+.text{
+    width: 550px;
+    height: 400px;
+    float: right;
+    text-align: center;
+    border: 1px solid #ffd9a0;
+    margin-top: 80px;
+    margin-right: 30px;
+    border-radius: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.button{
+    width: 550px;
+    height: 80px;
+    float: right;
+    margin-right: 30px;
+
+}
+#but{
+    background-color: #ffffff;
+    color: rgb(100, 139, 255);
+    border-color: rgb(100, 139, 255);
+    font-size: large;
+    border-radius: 9px;
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 105px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+#but:hover{
+    background-color:rgb(100, 139, 255) ;
+    color: white;
+}
+#but2{
+    background-color: #ffffff;
+    color: rgb(255, 139, 72);
+    border-color: rgb(255, 139, 72);
+    font-size: large;
+    border-radius: 9px;
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-top: 20px;
+    margin-right:20px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+#but2:hover{
+    background-color:rgb(255, 139, 72) ;
+    color: white;
+}
+#but3{
+    background-color: #ffffff;
+    color: rgb(0, 147, 17);
+    border-color: rgb(0, 147, 17);
+    font-size: large;
+    border-radius: 9px;
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+#but3:hover{
+    background-color:rgb(0, 147, 17) ;
+    color: white;
+}
